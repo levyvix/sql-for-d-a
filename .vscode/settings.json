@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "database": "${workspaceFolder:sql-for-d-a}/retail.ddb",
+            "name": "us_retail"
+        }
+    ]
+}
